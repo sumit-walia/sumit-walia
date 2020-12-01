@@ -552,6 +552,9 @@ pre code {
   padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
+  /*Edit: start*/
+  background-color: #ebebeb;
+  /*Edit: end*/
 }
 
 @media (min-width: 576px) {
@@ -10112,3 +10115,22 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/*Edit: Start*/
+.sumit-project-heading{
+  font-weight: bold;
+  margin-right: 4px;
+  margin-left: 4px;
+  /*text-align: justify;*/
+}
+
+.sumit-project-description{
+  margin-right: 20px;
+  margin-left: 4px;
+  text-align: justify;
+}
+
+.sumit-icons-name{
+  font-size: 20px;
+}
+/*Edit: End*/

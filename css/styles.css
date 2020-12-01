@@ -10,6 +10,25 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+/*Edit: Start*/
+.sumit-project-heading{
+  font-weight: bold;
+  margin-right: 4px;
+  margin-left: 4px;
+  /*text-align: justify;*/
+}
+
+.sumit-project-description{
+  margin-right: 20px;
+  margin-left: 4px;
+  text-align: justify;
+}
+
+.sumit-icons-name{
+  font-size: 20px;
+}
+/*Edit: End*/
+ 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10116,21 +10135,3 @@ section.resume-section .resume-section-content {
   }
 }
 
-/*Edit: Start*/
-.sumit-project-heading{
-  font-weight: bold;
-  margin-right: 4px;
-  margin-left: 4px;
-  /*text-align: justify;*/
-}
-
-.sumit-project-description{
-  margin-right: 20px;
-  margin-left: 4px;
-  text-align: justify;
-}
-
-.sumit-icons-name{
-  font-size: 20px;
-}
-/*Edit: End*/

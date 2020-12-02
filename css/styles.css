@@ -11,7 +11,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10093,6 +10092,7 @@ p.lead {
   /*Edit start*/
   /*background-color: var(--primary);*/
   color: var(--primary);
+  transition:  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   /*Edit ends*/
 }
 
@@ -10164,6 +10164,29 @@ section.resume-section .resume-section-content {
   padding-bottom: 4px;
   padding-left: 7px;
   padding-right: 7px; 
+}
+.publications{
+  color: var(--dark);
+}
+.sumit-publication-heading{
+  font-size: 18px;
+  font-weight: bold;
+}
+.sumit-publication-authors{
+  font-style: italic;
+  /*margin-bottom: 10px;*/
+}
+.sumit-publication-author{
+  color: var(--primary);
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-position: 
+}
+.sumit-publication-placef{
+  margin-bottom: 10px;
+}
+.sumit-publication-place{
+  color: var(--primary);
 }
 .sumit-icons-name{
   font-size: 20px;

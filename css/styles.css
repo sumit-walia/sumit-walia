@@ -11,6 +11,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
+ /*To change the background color of right container edit background-color of .container-fluid*/
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -68,6 +71,13 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  /*Edit start*/
+  /*background-image: url(../assets/img/back.png);*/
+    /*background-color: black;*/
+  /*background-size: contain;*/
+  /*background-position: center; /* 
+  /*background-repeat: no-repeat;*/
+  /*edit end*/
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -486,7 +496,9 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  /*Edit start*/
+  /*background-color: #fff;*/
+  /*Edit ends*/
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -557,7 +569,9 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   /*Edit: start*/
-  background-color: #ebebeb;
+  background-color: #fff;
+/*background-image: url(../assets/impg/me.jpg);*/
+/*background-size: contain;*/
   /*Edit: end*/
 }
 
@@ -1980,7 +1994,9 @@ pre code {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  /*Edit start*/
+  /*background-color: #fff;*/
+  /*Edit ends*/
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -10190,5 +10206,17 @@ section.resume-section .resume-section-content {
 }
 .sumit-icons-name{
   font-size: 20px;
+}
+
+
+.sumit-home-background{
+  /*display: inline-block;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  filter: blur(8px);
+  transform: translate(-50%, -50%);
+  position: absolute;
+
 }
 /*Edit: End*/
